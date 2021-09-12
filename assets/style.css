@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+    --secondary:#070606;
+    --ter: #3DCFD3;
+}
+
+.dark-theme{
+
+    --dark:#ffffff;
+    --pure:#898989;
+    --secondary:#898989;
+    --light:#161616;
+    --ternary: #070606;
+    --ter: #898989;
+}
+
+body{
+    background-color: var(--light);
+}
+
+#dark{
+    width: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+h3{
+    color: var(--primary);
+}
+
+h5{
+    color: var(--primary);
+}
+
+a:active{
+    color: var(--pure) !important;
+}
+
+
+.navbar{
+    background-color: var(--ter) !important;
+    padding: 10px;
+}
+
+.container{
+    padding: 20px;
+}
+
+
+.in .intr .name{
+    background-color: black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.in .intr .name h2{
+    color: var(--primary);
+}
+
+.in .intr .name h5{
+    color: rgb(187, 187, 187);
+}
+
+.prehead{
+    text-align: center;
+    margin: 25px 0px 15px 0px;
+    color: var(--dark);
+}
+
+.uline{ 
+    border: 3px solid #3DCFD3;
+    width: 400px; 
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.prevq{
+    margin: 0 auto;
+    background-color: var(--ternary);
+    padding: 30px;
+    align-content: center;
+}
+
+.prevq .crd div{
+    border: 2px solid var(--dark);
+    margin: 0 auto;
+}
+
+.prevq .crd {
+    padding: 10px;
+}
+
+.prevq .crd .card-body{
+    background-color: var(--pure);
+}
+
+.prevq .crd .card .card-body .card-title{
+    text-align: center;
+}
+
+.prevq .crd .card .card-body h5{
+    text-align: center;
+}
+
+.skill{
+    margin: 0 auto;
+    background-color: var(--ternary);
+    padding: 60px;
+    color: var(--dark);
+  
+}
+
+.skill .crds{
+    padding: 30px;
+    margin: 10px auto;
+}
+
+.card :hover{
+    background-color: black !important;
+    color: white;
+}
+
+.skill :hover{
+    background-color: black !important;
+    color: white;
+}
+
+.skill .crds{
+    border: 5px solid var(--dark);
+    background-color: var(--pure);
+}
+
+.skill .card .card-body .card-title{
+    text-align: center;
+}
+
+.skill .card .card-body .btn{
+    margin: 0 40px ;
+
+}
+
+.about{
+    background-color: black;
+    float: left;
+}
+
+.about p{
+    color: white;
+}
+
+.about h4{
+    color: var(--primary);
+}
+
+.social{
+    background-color: black;
+}
+
+.social .sc img{
+    width: 30px;
+    height: 30px;
+}
+
+.social .sc a{
+    background-color: var(--pure);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    transition: all 0.7s ease;
+}
+
+.social a:hover{
+    background-color: rgb(111, 207, 245);
+}
